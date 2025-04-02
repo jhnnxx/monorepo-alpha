@@ -5,11 +5,11 @@ const nextConfig: NextConfig = {
 		return [
 			{
 				source: "/community/:path*",
-				destination: "/:path*",
+				destination: "/community/:path*",
 			},
 			{
 				source: "/webzine/:path*",
-				destination: "/:path*",
+				destination: "/webzine/:path*",
 			}
 		];
 	}
